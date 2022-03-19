@@ -1,0 +1,102 @@
+body
+{
+
+	background-image: url(n.jpg);
+	background-size: 100%;
+	background-repeat:repeat;
+
+	
+}
+div#A
+{ 
+width:1050px;
+height:980px;
+background-color:rgb(188,235,224);
+margin-left:150px;
+margin-right:300px;
+margin-top:5px;
+position:absolute;
+}
+table
+{
+height:180px;
+width:200px;
+margin-top:50px;
+margin-right:20px;
+margin-bottom:100px;
+border:3px solid grey;
+
+}
+th
+{
+padding:10px;
+border:3px solid grey;
+text-align:center; 
+vertical-align:middle;
+}
+tr
+{
+padding:10px;
+text-align:center; 
+vertical-align:middle;
+border:2px solid grey;
+background-image: url(e2.jpg);
+background-repeat:repeat;
+}
+tr:hover
+{
+background-color:silver;
+}
+div#signup
+{ 
+width:700px;
+height:700px;
+background-image:url(e2.jpg);
+background-repeat:repeat;
+background-size:100%;
+margin-left:340px;
+margin-right:250px;
+margin-top:150px;
+margin-bottom:125px;
+position:absolute;
+border-radius:50px;
+}
+img
+{
+	border-radius:60px;
+}
+input[type=textbox]
+{
+	width:300px;
+	height:40px;
+	font-size: 20px;
+	border: none;
+	border-bottom: 4px solid rgb(53,196,189);
+	padding-left:60px;
+	background-color:inherit;
+}
+
+input[type=submit]
+{
+	width:250px;
+	height:40px;
+	font-size: 20px;
+	border-radius: 25px;
+	background-color:rgb(53,196,189);
+	padding-left:10px;
+	
+}
+input[type=submit]:hover
+{
+	color:black;
+}
+input[type=textbox]:focus
+{
+	outline: none;
+}
+input[type=submit]
+{
+	color: white;
+}
+
+

@@ -1,0 +1,98 @@
+body
+{
+	background-image:url(mde.jpg);
+	background-size:30%;
+	background-repeat:repeat;
+}
+div#signup
+{ 
+width:1050px;
+height:600px;
+background-color:rgb(188,235,224);
+margin-left:150px;
+margin-right:300px;
+margin-top:5px;
+position:absolute;
+}
+ul
+{
+list-style-type:none;
+margin:10px;
+background-color:rgb(8,98,99);
+padding:0px;
+overflow:hidden;
+}
+li
+{
+float:left;
+}
+li a
+{
+display:block;
+text-decoration:none;
+color:white;
+padding:10px;
+font-size:25px;
+}
+li a:hover
+{
+background-color:black;
+}
+img
+{
+	
+	border-radius:4px;
+	background-color:inherit;
+}
+div#d1
+{
+	width:85px;
+	height:30px;
+	margin-left:930px;
+	margin-top:14px;
+	background-color:rgb(55,148,146);
+}
+p#W
+{
+    margin-left:400px;
+	font-size:24px;
+	color:red;
+}		
+input[type=textbox]
+{
+	width: 120px;
+	height: 20px;
+	font-size: 12px;
+	border: 2px solid black;
+	padding-left:10px;
+	background-color:inherit;
+}
+input[type=password]
+{
+	width: 100px;
+	height: 30px;
+	font-size: 12px;
+	border: 2px solid black;
+	padding-left:10px;
+	background-color:inherit;
+	
+}
+input[type=submit]
+{
+	width: 100px;
+	height: 23px;
+	font-size: 12px;
+	border-radius: 25px;
+	background-color:rgb(216,215,222);
+	padding-left:4px;
+	
+}
+input[type=submit]:hover
+{
+	color:blue;
+}
+input[type=submit]
+{
+	color: red;
+}
+

@@ -1,0 +1,156 @@
+body
+{
+
+	background-image: url(y.jpg);
+	background-repeat:repeat;
+
+	
+}
+div#A
+{ 
+width:1050px;
+height:1780px;
+background-color:rgb(188,235,224);
+margin-left:150px;
+margin-right:300px;
+margin-top:5px;
+position:absolute;
+}
+ul
+{
+list-style-type:none;
+margin:10px;
+background-color:rgb(8,98,99);
+padding:0px;
+overflow:hidden;
+}
+li
+{
+float:left;
+}
+li a
+{
+display:block;
+text-decoration:none;
+color:white;
+padding:10px;
+font-size:25px;
+}
+li a:hover
+{
+background-color:black;
+}
+img
+{
+	
+	border-radius:4px;
+	background-color:inherit;
+}
+div#d1
+{
+	width:85px;
+	height:30px;
+	margin-left:930px;
+	margin-top:14px;
+	background-color:rgb(55,148,146);
+}
+table
+{
+height:380px;
+width:300px;
+margin-top:50px;
+margin-right:20px;
+margin-bottom:100px;
+border:3px solid grey;
+border-collapse:collapse;
+}
+th
+{
+padding:10px;
+border:3px solid grey;
+text-align:center; 
+vertical-align:middle;
+background-image:url(e.jpg);
+background-size:100%;
+}
+tr
+{
+padding:10px;
+text-align:center; 
+border:2px solid grey;
+}
+tr:nth-child(even)
+{
+	background-color:white;
+}
+tr:nth-child(odd)
+{
+	background-image:url(e.jpg);
+    background-repeat:repeat;
+}
+button
+{
+	width:250px;
+	height:40px;
+	font-size: 20px;
+	border-radius: 25px;
+	background-color:rgb(53,196,189);
+	padding-left:10px;
+	
+}
+button:hover
+{
+	color:black;
+}
+button
+{
+	color: white;
+}
+button:focus
+{
+	outline: none;
+}
+
+input[type=number]
+{
+	width:90px;
+	height:25px;
+	font-size: 15px;
+	border:1px solid black;
+	
+	padding-left:10px;
+	background-color:inherit;
+}
+input[type=textbox]
+{
+	width:300px;
+	height:40px;
+	font-size: 20px;
+	border: none;
+	border-bottom: 4px solid rgb(53,196,189);
+	padding-left:60px;
+	background-color:inherit;
+}
+input[type=textbox]:focus
+{
+	outline: none;
+}
+
+
+input[type=submit]
+{
+	width:80px;
+	height:25px;
+	font-size: 13px;
+	border-radius: 20px;
+	background-image:url(B.gif);
+	background-size:100%;
+	padding-left:5px;
+}
+
+input[type=submit]
+{
+	color: white;
+}
+
+

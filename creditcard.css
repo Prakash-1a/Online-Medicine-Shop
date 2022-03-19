@@ -1,0 +1,179 @@
+body
+{
+	background-image:url(mde.jpg);
+	background-size:30%;
+	background-repeat:repeat;
+}
+div#signup
+{ 
+width:1050px;
+height:600px;
+background-color:rgb(188,235,224);
+margin-left:150px;
+margin-right:300px;
+margin-top:5px;
+position:absolute;
+}
+ul
+{
+list-style-type:none;
+margin:10px;
+background-color:rgb(8,98,99);
+padding:0px;
+overflow:hidden;
+}
+li
+{
+float:left;
+}
+li a
+{
+display:block;
+text-decoration:none;
+color:white;
+padding:10px;
+font-size:25px;
+}
+li a:hover
+{
+background-color:black;
+}
+img
+{
+	
+	border-radius:4px;
+	background-color:inherit;
+}
+div#d1
+{
+	width:85px;
+	height:30px;
+	margin-left:930px;
+	margin-top:14px;
+	background-color:rgb(55,148,146);
+}
+
+div#d2
+{
+width:400px;
+height:200px;
+background-color:gray;
+background-image:url(delivery.gif);
+background-size:92%;
+background-position:center;
+background-repeat:no-repeat;
+position:absolute;
+margin-left:340px;
+
+}
+div#d6
+{
+width:350px;
+height:180px;
+background-color:brown;
+background-image:url(E.gif);
+background-size:100%;
+background-position:center;
+background-repeat:no-repeat;
+position:absolute;
+margin-left:340px;
+
+}
+div#d8
+{
+width:280px;
+height:180px;
+background-color:brown;
+background-image:url(dc.gif);
+background-size:100%;
+background-position:center;
+background-repeat:no-repeat;
+position:absolute;
+margin-left:700px;
+margin-top:70px;
+}
+div#d9
+{
+width:280px;
+height:180px;
+background-color:brown;
+background-image:url(cc.gif);
+background-size:100%;
+background-position:center;
+background-repeat:no-repeat;
+position:absolute;
+margin-left:700px;
+margin-top:70px;
+}
+div#d10
+{
+width:280px;
+height:180px;
+background-color:brown;
+background-image:url(uupi.jpeg);
+background-size:100%;
+background-position:center;
+background-repeat:no-repeat;
+position:absolute;
+margin-left:700px;
+margin-top:70px;
+}
+p#W
+{
+    margin-left:20px;
+	font-size:27px;
+}	
+input[type=textbox]
+{
+	width: 120px;
+	height: 20px;
+	font-size: 12px;
+	border: 2px solid black;
+	padding-left:10px;
+	background-color:inherit;
+}
+input[type=password]
+{
+	width: 80px;
+	height: 20px;
+	font-size: 12px;
+	border: 2px solid black;
+	padding-left:10px;
+	background-color:inherit;
+}
+input[type=submit]
+{
+	width: 100px;
+	height:30px;
+	font-size: 15px;
+	border-radius: 25px;
+	background-color:rgb(216,215,222);
+	padding-left:10px;
+}	
+input[type=submit]:hover
+{
+	color:red;
+}
+input[type=submit]
+{
+	color: blue;
+}
+button
+{
+	width: 100px;
+	height:30px;
+	font-size: 15px;
+	border-radius: 25px;
+	background-color:rgb(216,215,222);
+	padding-left:10px;
+}	
+button:hover
+{
+	color:red;
+}
+button
+{
+	color: blue;
+}
+
+

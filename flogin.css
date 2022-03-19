@@ -1,0 +1,94 @@
+body
+{
+	
+	background-image:url(f.jpg);
+	background-size:50%;
+}
+div#A
+{ 
+width:1330px;
+height:100px;
+background-color:rgb(14,18,140);
+margin-left:0px;
+margin-right:0px;
+margin-top:5px;
+position:absolute;
+}
+div#signup
+{ 
+width:500px;
+height:410px;
+background-color:white;
+margin-left:420px;
+margin-right:250px;
+margin-top:140px;
+margin-bottom:125px;
+position:absolute;
+border-radius:50px;
+}
+input[type=textbox]
+{
+	width:300px;
+	height:40px;
+	font-size: 20px;
+	border: 2px solid grey;
+	border-radius: 15px;
+	padding-left:60px;
+	background-color:inherit;
+}
+input[type=email]
+{
+	width:300px;
+	height:40px;
+	font-size: 20px;
+	border: 2px solid grey;
+	border-radius: 15px;
+	padding-left:60px;
+	
+}
+input[type=password]
+{
+	width:300px;
+	height:40px;
+	font-size: 20px;
+	border: 2px solid grey;
+	border-radius: 15px;
+	padding-left:60px;
+	background-color:inherit;
+	
+}
+input[type=submit]
+{
+	width:220px;
+	height:35px;
+	font-size: 18px;
+	border-radius: 15px;
+	background-color:rgb(14,18,140);
+	padding-left:10px;
+	
+}
+input[type=submit]:hover
+{
+	color:black;
+}
+input[type=submit]
+{
+	color: white;
+}
+input[type=submit]:focus
+{
+outline: none;
+}
+input[type=password]:focus
+{
+
+	outline: none;
+}
+input[type=textbox]:focus
+{
+	outline: none;
+}
+input[type=email]:focus
+{
+	outline: none;
+}
